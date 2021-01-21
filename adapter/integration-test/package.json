@@ -10,14 +10,20 @@
   },
   "devDependencies": {
     "jest": "^24.9.0",
+    "kind-of": ">=6.0.3",
+    "minimist": ">=1.2.3",
+    "node-notifier": ">=8.0.1",
     "supertest": "^4.0.2"
   },
   "jest": {
     "testEnvironment": "node"
   },
   "dependencies": {
+    "kind-of": ">=6.0.3",
     "koa": "^2.11.0",
     "koa-router": "^7.4.0",
+    "minimist": ">=1.2.3",
+    "node-notifier": ">=8.0.1",
     "wait-on": "^3.3.0"
   }
 }

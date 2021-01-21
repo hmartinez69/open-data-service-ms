@@ -22,7 +22,7 @@ describe("Core", () => {
     expect(response.status).toEqual(200);
     expect(response.type).toEqual("text/plain");
 
-    const semanticVersionRegEx = '^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)';
+    const semanticVersionRegEx = '^(0|[1-9]d*).(0|[1-9]d*).(0|[1-9]d*)';
     expect(response.text).toMatch(new RegExp(semanticVersionRegEx));
   });
 

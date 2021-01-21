@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "jest": "^25.2.4",
-    "node-notifier": ">=8.0.1",
+    "node-notifier": "^8.0.1",
     "nodemon": "^2.0.2",
     "supertest": "^4.0.2"
   },
@@ -25,7 +25,7 @@
     "koa": "^2.11.0",
     "koa-bodyparser": "^4.3.0",
     "koa-router": "^8.0.8",
-    "node-notifier": ">=8.0.1",
+    "node-notifier": "^8.0.1",
     "wait-on": "^4.0.1"
   }
 }
